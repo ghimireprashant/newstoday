@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - JXSegmentedView (1.0.6)
+  - ObjectMapper (3.5.1)
+  - SDWebImage (5.4.2):
+    - SDWebImage/Core (= 5.4.2)
+  - SDWebImage/Core (5.4.2)
+  - SVProgressHUD (2.2.6):
+    - SVProgressHUD/Core (= 2.2.6)
+  - SVProgressHUD/Core (2.2.6)
+  - SwiftLint (0.38.2)
+  - VerticalCardSwiper (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - AlamofireObjectMapper (= 5.2.1)
+  - JXSegmentedView
+  - ObjectMapper (= 3.5.1)
+  - SDWebImage
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - SwiftLint
+  - VerticalCardSwiper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - JXSegmentedView
+    - ObjectMapper
+    - SDWebImage
+    - SwiftLint
+    - VerticalCardSwiper
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 0a9abb56a8d5c1ffc0078babc07fb11ff2fa2f22
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  JXSegmentedView: ceb6fb3a12716408bcd5c4210b93d947d079de25
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  SDWebImage: 4ca2dc4eefae4224bea8f504251cda485a363745
+  SVProgressHUD: de812b4f0e1d65358f0064416473174ae619843f
+  SwiftLint: 8f5d2f903e1c9bcbc832fd16771e80a263ac6cbb
+  VerticalCardSwiper: 41c8c0d8d87511ec269347f5671386acf66cd31a
+
+PODFILE CHECKSUM: 07ba408f6ce087a5d7a0852039c45a549a016608
+
+COCOAPODS: 1.8.4
